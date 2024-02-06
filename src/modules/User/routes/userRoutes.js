@@ -1,6 +1,6 @@
 // routes.js
 const express = require("express");
-const { registerUserCtrl } = require("../controllers/userApiController");
+const registerUserCtrl = require("../userRepository/userRepo");
 
 const userRouter = express.Router();
 

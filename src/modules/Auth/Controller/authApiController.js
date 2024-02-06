@@ -1,6 +1,5 @@
 // authApiController.js
 const User = require("../../User/models/userSchema");
-const asyncHandler = require("express-async-handler");
 const bcrypt = require("bcrypt");
 const generateToken = require("../../../services/Utils/generateToken");
 
